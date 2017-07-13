@@ -5,7 +5,7 @@ var records = document.getElementById('records');
 // Constructor para generar un nuevo producto
 function Producto(compra, cantidad)
 {
-  this.compra = compra.toLowerCase();
+  this.compra = compra.toLowerCase(),
   this.cantidad = cantidad;
 }
 
